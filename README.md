@@ -75,19 +75,6 @@ A one-page document to help your team establish effective frontend guidelines, s
 }
 ```
 
-### Indenting
-When indenting in Sass, stick **two(2) spaces** and **leave a blank line** before and after the nested ruleset:
-```scss
-foo {
-  color: red;
-
-  .bar {
-    color: blue;
-  }
-
-}
-```
-
 ### Declaration sorting
 Related property declarations should be grouped together following the order:
 1. Positioning
@@ -135,9 +122,23 @@ Everything else takes place inside the component or without impacting the previo
 Use [PostCSS VSCode Plugin](https://github.com/hudochenkov/postcss-sorting#options) to automatically sorting your code with [this configuration](postcss-settings.json). Copy settings in your VSCode *settings.json*.
 
 
+### Indenting
+When indenting in Sass, stick **two(2) spaces** and **leave a blank line** before and after the nested ruleset:
+```scss
+foo {
+  color: red;
+
+  .bar {
+    color: blue;
+  }
+
+}
+```
+
 ### Selector Nesting in Sass
-**Avoid selector nesting as much as possible.**
+**Avoid selector nesting as much as possible.** The problme is that it makes code more difficult to read.
 - Don't nest more than 3 leves deep, following the [Inception Rule](http://thesassway.com/beginner/the-inception-rule)
+- Use along with BEM naming convention to generate `.block_element`
 
 
 
