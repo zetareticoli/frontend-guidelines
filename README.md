@@ -23,7 +23,7 @@ A one-page document to help your team establish effective frontend guidelines, s
 - **What are some general principles your team should follow when writing CSS?** *(For example, modularity, avoiding long selector strings, etc. See [these](http://cssguidelin.es/) [resources](http://www.yellowshoe.com.au/standards/#css) [for](http://manuals.gravitydept.com/code/css) [inspiration](http://codeguide.co/#css))*
 
 ## Methodology
-- **Is your team using a CSS methodology** *(such as [SMACSS](https://smacss.com/), [BEM](https://en.bem.info/method/), or [OOCSS](http://oocss.org/))*? If yes, where is the documentation for that methodology?
+We adopt [BEM](https://en.bem.info/method/) methodology.
 - **Are you deviating from the methodology in any way?** If so, can you highlight these conventions?
 
 ## Tools
@@ -38,9 +38,7 @@ A one-page document to help your team establish effective frontend guidelines, s
 
 1. [Intending](#indenting)
 2. [Declaration sorting](#declaration-sorting)
-2. [Encoding](#encoding)
-3. 
-
+3. [Encoding](#encoding)
 
 ### Common rules
 - two (2) spaces indents, no tabs;
