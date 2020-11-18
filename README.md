@@ -7,13 +7,14 @@ A one-page document to help your team establish effective frontend guidelines, s
 
 
 ## HTML Tools
-- **Are you using an HTML preprocessor** *(such as [HAML](http://haml.info/), [Jade](http://jade-lang.com/), etc)*?
-- **Are you using a templating engine** *(such as [Mustache](https://mustache.github.io/), [Handlebars](http://handlebarsjs.com/), etc)*?
-- **Does your backend architecture influence the frontend markup in any way** (for example, WordPress will add `wp-paginate` to a class in your markup)? If so, can you highlight these conventions? 
+- **Sass preprocessor** and **SCSS syntax** for stylesheet files, using `.scss` extension
+- **[Nunjucks](https://mozilla.github.io/nunjucks/)** for templating engine
+- **Gulp** to run a helpful tasks such as: compiling your Sass files to CSS, processing assets files (JS, images,icons), optimizing and building files for production and more
+- **[Fractal](https://fractal.build)** for components library and style guide
 
 ## HTML Style
-- **Spaces or Tabs?**
-- **What does HTML commenting look like?** 
+- Indent yout code using 2 spaces, not tabs
+- Use comments carefully defining start and end of a block in a way like: `<!-- BLOCK NAME - Start --> <!-- BLOCK NAME - End -->`
 
 ---------------
 
