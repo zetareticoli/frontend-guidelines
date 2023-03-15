@@ -1,4 +1,4 @@
-# Frontend Guidelines
+# Fron-tend Guidelines
 A one-page document to help your team establish effective frontend guidelines, so that you can write consistent & cohesive code together.
 
 ## HTML
@@ -32,6 +32,7 @@ We adopt [BEM](https://en.bem.info/method/) methodology.
 - **What are the guidelines for using that preprocessor** *(check out [Sass Guidelines](https://sass-guidelin.es/) for inspiration)*?
 - **Are you using a CSS base** *(such as [Normalize](https://necolas.github.io/normalize.css/) or a [reset](http://meyerweb.com/eric/tools/css/reset/))*?
 - **Are you using any CSS postprocessors** *(such as [Prefixfree](https://leaverou.github.io/prefixfree/) or [Autoprefixer](https://github.com/postcss/autoprefixer))*?
+- **Are you using CSS Custom Properties**? If so, explaing the difference with Sass variables
 - **Are there specific CSS techniques you're utilizing** *(such as [critical CSS](https://www.smashingmagazine.com/2015/08/understanding-critical-css/))*?
 
 
