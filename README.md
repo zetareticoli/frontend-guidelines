@@ -8,8 +8,8 @@ A one-page document to help your team establish effective frontend guidelines, s
 
 ## HTML Tools
 - **Sass preprocessor** and **SCSS syntax** for stylesheet files, using `.scss` extension
-- **[Nunjucks](https://mozilla.github.io/nunjucks/)** for templating engine
-- **Gulp** to run a helpful tasks such as: compiling your Sass files to CSS, processing assets files (JS, images,icons), optimizing and building files for production and more
+- **What template engine your team should use?** (e.g. [Nunjucks](https://mozilla.github.io/nunjucks/))
+- **What CI and task runner**? (e.g. **Gulp** to run a helpful tasks such as: compiling your Sass files to CSS, processing assets files (JS, images,icons), optimizing and building files for production and more)
 - **[Fractal](https://fractal.build)** for components library and style guide
 
 ## HTML Style
