@@ -15,6 +15,7 @@ A one-page document to help your team establish effective frontend guidelines, s
 ## HTML Style
 - Indent yout code using 2 spaces, not tabs
 - Use comments carefully defining start and end of a block in a way like: `<!-- BLOCK NAME - Start --> <!-- BLOCK NAME - End -->`
+- **What order to follow for classnames**?
 
 ---------------
 
